@@ -45,7 +45,7 @@ void drawPoly(vector<int> points)
   {
     int data1 = points.at(i * 2);
     int data2 = points.at((i * 2) + 1);
-    glVertex2f(data1, data2);
+    glVertex2f(data1, data2);glColor
   }
   glEnd();
 }
