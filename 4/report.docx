@@ -1,0 +1,24 @@
+﻿Programming Project Report
+
+Tyler Tracy
+010805685
+
+Problem Statement:
+
+	The goal of this programming assignment was to create a 3D model of a penny. This required learning about opengl keyboard callbacks, line loops, and shading.
+
+
+Design:
+	I create a single program to do this task. The first thing the program did was read in the jpeg files a couple of 2d arrays of points, colors, and normals. This data was then used to place the points in opengl and then render either a line loop, a polygon, or a shaded polygon. A keyboard callback was used to switch the different rendering methods the penny had and the keyboard also controlled the rotation of the penny. 
+
+Implementation:
+	When I first started I used Gauch’s program to read the jpegs into txt files. After getting frustrated with how the code looked that read in files I just moved his code to my main program and skipped the txt file step all together. I did use Gauch’s code for the shading of the penny because I did not want to move that into my code. It took me about an 1 to get all of him code moved to my program and working correctly. 
+
+
+Testing:
+	I tested my program by running it with different values of “dim” (which is the variable I use to determine how high of resolution the penny should be). At 100 you can see the mesh pretty well:
+At dim=500 the colored and shaded penny look very good
+
+
+Conclusions:
+	The result of this assignment was an overall success. I was able to render the penny with each different method. The overall assignment took me around 5 hrs. If we were to do this again I think it would be cool to extend this to work on any model. So we can take any picture and create a 3d model of it! 
